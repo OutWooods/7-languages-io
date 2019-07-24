@@ -1,13 +1,25 @@
 Question 
-Is JS still a prototype language?,yes
-WHat is the difference between := and  = in IO?,
 What are coroutines, async sockets and SIMD support.
+How does recursiveness ACTUALLY work?
+
+Good slides to help:
+http://soft.vub.ac.be/~tvcutsem/talks/presentations/IO-tvcutsem-26-11-04.pdf
 
 
+what does := mean?,It converts to setSlot 
+what does = mean?,It converts to updateSlot
+Presumably, when you're making new assigments you're setting slots on the object for the programme so you can acces them. 
 What are homoiconic languages?,languages which use code as data
 How do homoiconic languoages work?,The programme itself is written as the code itself so you can manipulate it with other code
 Give two examples of homoiconic languages?,Io and Lisp
 How is a programme represented in a homoiconic language?,the primary representation is in a primitive type of the language itself
+Is JS still a prototype language?,yes
+What does SMID stand for?,Single instruction - multiple data
+What is SMID?,It's a class of parallel computers - computers with multiple processing elements that perform the same operation on multiple data points simultaneously. 
+What is data level parallelism?,Doing the same operations on lots of different bits of data but not changing the same data at the same time.
+What is SMID often used for?,improving performance of cpu with multimedia use
+
+
 
 
 How do they approach learning languages?
@@ -126,12 +138,55 @@ PHilosophy behind IO
 
 
 
+In Io you can define a method, and then 
+
+Oddly, method extends block. But to call a method in block, you have to pass it call. WHilst methods themselves you can pass the arguements directly to them. 
+
+You can pass a chain of messages. They call each other and return the results. 
+
+You can look at the arguement names for a method. The code of the method.
+arguementNames, code 
 
 
+when you activate a method - you get a 'locals object' 
+you get a proto object - the message reciever
+a self object - the message reciever
+the sender - the object of the caller
+thisMessage - reification of processed message 
 
+if is done like this if(condition, true, false) or you can do 
+	(condition) ifTrue() ifFalse()
+it has while and forloops
 
+method takes unlimtited arguements but the final one is the function itself.
 
+Languages without syntactic sugar hide alot less about how they work to the user.
 
+::= seems to create a setter method and a variable value
+
+::= := = are different levels
+= assigns a value if the slot exists
+:- creates a slot and assigns a value
+::= creates a slot, creates a setter, assigns a value
+
+You can easliy change objects, add new methods, change the methods at run time. YOu can change values. It's very flexible and changable. 
+
+::= is a good way to set up a slot but also provide a simple interface to change its value. So its good for a property for example. 
+
+// is a comment
+
+super means send a message directly to the proto
+
+Dog := Object clone
+Dog bark := method(writeln("woof!"))
+
+fido := Dog clone
+fido bark := method(
+   writeln("ruf!")
+   super(bark)
+)
+
+has a repeat method 10 repeat 
 
 
 
