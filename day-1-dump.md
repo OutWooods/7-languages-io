@@ -23,16 +23,6 @@ What is SMID often used for?,improving performance of cpu with multimedia use
 
 
 How do they approach learning languages?
-1. Get an understanding about underlying principals
-2. Get an understanding of use case
-3. Do very basic things with it, to understand the syntax but also the underlying structure
-4. Look at the different types 
-5. Try and compare to other languages - how is it different?How is it similar?
-6. looking at the booleans - what are true and false, how do they behvae - what rules apply to them?
-7. Find example problems (E.g. project Euler - ideally with solutions)
-8. Find a community that can answer questions
-9. A style guide for io.
-
 IO - invented in 20002 
 It's a prototype language
 Lua and JS are also prototype language - every object is a clone of another
