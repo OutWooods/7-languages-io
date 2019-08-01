@@ -29,3 +29,7 @@ while(a < 4000000, if(a % 2 == 0, b = b + a
 	c = d ))
 
 b println
+
+
+
+

@@ -88,7 +88,6 @@ A message returns the value in a slot or invokes the method in a slot
 If an objecct can't respond to a message, it sends that message to its prototype.
 
 
-
 Collections - Io has a few types of these.
 List is the prototype for all lists and Map is the prototype for key-value pairs (like ruby hashes). 
 
