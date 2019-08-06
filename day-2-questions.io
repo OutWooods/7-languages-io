@@ -33,4 +33,10 @@ d)
 
 // 6. Write a transport method so that new_matrix
 
+
+// . Write the matrix to a file and read a matrix from a file
+
+- launchFile will be useful
+
+
 // 7. Write a programme that gives you ten tries ot guess a random number from 1-100
