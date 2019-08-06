@@ -1,23 +1,22 @@
-jesus := Object clone
-jesus pray := method(
-           "hey there!" println
-	   yield
-	   "hows it going?" println
-	   yield)
+Builder := Object clone
+Builder indentation := 0
 
-god := Object clone
-god answer := method(
-	   "good thanks!" println
-	   yield
-	   "honestly really good" println)
+Builder forward := method(
+		    writeln(Range(0, self indentation) foreach(" ") , "<", call message name, ">")
 
-//jesus @@pray; god @@answer
+		    call message arguments foreach(
+		      arg,
+		      self indentation := self indentation + 2
+		      content := self doMessage(arg)
+		      if(content type == "Sequence", writeln(indentation, content)))
+		    
+		    self indentation := self indentation - 2
+		    writeln(self indentation, "</", call message name, ">")
+		    )
 
-result := URL with("http://google.com/") @fetch
 
-"I will run first" println
-
-writeln("fetched", result size, "bytes")
-
-"I may run again" println
-
+Builder ul(
+          li("IO")
+	  li("Lua")
+	  li("Javascript")
+	)
