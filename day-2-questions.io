@@ -14,7 +14,9 @@ test println // should be 89
 
 // Set the / method on numbers
 
-Number / := method(value, if(value == 0, return 0, return 1))
+Number traditionalDivision := Number getSlot("/")
+
+Number / := method(value, if(value == 0, return 0, return self traditionalDivision(value))
 
 
 // 3. Write a method to add up al the numbers in a two dimensional array
@@ -23,15 +25,20 @@ List twoDSum :=  self flatten sum
 
 // 4. Add a slot called MyAverage to a list that computes the average of all the numbers in a list. Whappens if there are no numbers? Raise an exception if any item is not
 
-// 5. Write a prototype for a 2 day list, the dim(x,y) method should alocate y lists which are x long. And set (x, y, value) should set a value. get(x, y) should return the value
+// There is already an average method in io, but here is the implementation to do it fresh. 
+
+List myAverage := method(
+  if(self select(value, value type != "Number") isEmpty,
+	  self sum / self size,
+          return Exception raise ("There is a non-number!")
+    )
+)
+
+list("12") myAverage println
+list(12) myAverage println
 
 
-a) Need to make a 2DList prototype
-b) call the dm method creates a list with y and x
-c) slots tell you x and y values
-d) 
-
-// 6. Write a transport method so that new_matrix
+// 6. Write a transpose method so that new_matrix
 
 
 // . Write the matrix to a file and read a matrix from a file
