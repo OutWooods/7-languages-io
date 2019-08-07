@@ -6,6 +6,8 @@ It's taught me to interrogate code more - IO's structure is so simple, so much s
 
 It's taught me to think more carefully about a languages design and use that to influence my solutions - before IO I didn't think too heavily about what constraints were there but also what freedoms I was being deliberately given.
 
+I've had to solve alot of things more myself, and read documentation more carefully. Often I'm prone to skimming documentation or rushing straight to stack overflow. Instead here I've had to interrogate the language and methods directly.
+
 
 2. It's made me understand OO alot more
 
@@ -36,7 +38,7 @@ Often learning languages has been stressful - pressured. But the writer of 7 lan
 
 I'd never really appreciated until IO that you could do some pretty fundamental things in different ways. How do you approach booleans? How do you approach operations - especially adding syntactic sugar for them? IO goes, make them objects, make booleans singletons. 
 
-Doing IO has made me see that looking at these base level types, how they're appraoched. How if statements are implemented - teaches you alot about the philisophy of the language. 
+Doing IO has made me see that looking at these base level types, how they're appraoched. How if statements are implemented - teaches you alot about the philisophy of the language.
 
 
 ### Areas for development
