@@ -24,27 +24,3 @@
    self at(y) at(x)
 )
 
-2DMatrix transpose := method(
-   yValue := 0
-   transposed := 2DMatrix dim(self y, self x)
-
-   self foreach(value, 
-      xValue := 0
-      
-      value foreach(value, 
-        transposed set(yValue, xValue, value) 
-	xValue := xValue + 1
-      )
-      yValue := yValue + 1
-   )
-
-  transposed
-)
-
-
-tester := 2DMatrix dim(3,2)
-tester set(2,1,"q")
-tester get(2,1) println
-tester  println
-testerTransposed := tester transpose
-testerTransposed println

@@ -4,7 +4,6 @@ Each day has an Anki deck for it - with factual questions.
 Why have I don this? 
 a) To improve 
 
-
 ## What I think coders sometimes miss this
 a) Often the focus is on 'being good problem solvers' and so there can be an emphasis on language agnosticsm
 b) This leads people to discount the importance of syntax and knowledge of code
