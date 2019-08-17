@@ -1,10 +1,25 @@
+## Knowledge vs Learning
+
+Working in progress
+
+Learning IO has been the first language I've learnt, where I've been focusing on recall and memory. 
 This first language I've been focusing alot on recall and memory. 
 Each day has an Anki deck for it - with factual questions. 
 
-Why have I don this? 
-a) To improve 
+Anki is a great app that uses spaced repetition to improve your memory of a topic. It has a clever algorithm that increases and decreases the gap between when each card is shown to you, based on how good you are at it, and what will maximise your ability to remeber it.
 
-## What I think coders sometimes miss this
+
+## What is your memory?
+
+Super basic - but essentially how well you remember something is a mixture of two things. Storage and retrieval strength.
+
+Storage is how well your have it held in your long term memory. 
+Retrieval is how easily you can bring it back. 
+
+These arn't stable, you retrieval strength can degrate, in one room you may have better retrieval strength for some topics than others (e.g. childhood memories when you visit your family home). Anki by spreading out the topics over time is improving your storage and retrieval strength. The practise over time is improving the storage, and focing you to recall it each time makes sure your retrieval strength is better. 
+
+## So why does memorising facts make me a better coder?
+
 a) Often the focus is on 'being good problem solvers' and so there can be an emphasis on language agnosticsm
 b) This leads people to discount the importance of syntax and knowledge of code
 c) Coding courses focus on projects, rarely on retention and memory of facts and skills
@@ -13,10 +28,9 @@ Whilst obviously, coders shouldn't just remember facts - problem solving is sign
 
 Memorising basic syntax rules and facts about the language you are using have several benefitS.  
 
-## Why?
 It primarily comes back to working memory. You have a limit of how many things you can actively hold in your working memory (4-9 depending on what and different researchers). 
 
-When you start remembering facts and syntax - these are all things you don't need to hold in your working memory. So you can just focus on solving the problem. Ever
+When you start remembering facts and syntax - these are all things you don't need to hold in your working memory. So you can just focus on solving the problem. If you face something challenging.
 
 ## How it should inform my work?
 
