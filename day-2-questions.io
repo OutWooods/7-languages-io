@@ -1,4 +1,4 @@
-// 1. The Fibionacci sequence recursive 
+// 1. The Fibionacci sequence recursive
 
 fib := method(value, a, b, if(value < 1, return a, fib(value -1 , a + b, a)))
 
@@ -17,7 +17,7 @@ List twoDSum :=  self flatten sum
 
 // 4. Add a slot called MyAverage to a list that computes the average of all the numbers in a list. Raise an exception if any item is not. (An exception is already raised for no values whatsoever so I allowed that to stay rather than add a new excepiton.)
 
-// There is already an average method in io, but here is the implementation to do it fresh. 
+// There is already an average method in io, but here is the implementation to do it fresh.
 
 List myAverage := method(
   if(self select(value, value type != "Number") isEmpty or self isEmpty,
@@ -32,7 +32,7 @@ list(12) myAverage println
 // 5. Write a prototype for a two dimensional list. dim(x , y) method should allocate a list of y lists that are x elements long. set(x, y value) should set a value and get(X, y) should return that value.
 
 2DMatrix := List clone
-2DMatrix dim := method(x, y, 
+2DMatrix dim := method(x, y,
    matrix := self clone
    matrix x := x
    matrix y := y
@@ -46,7 +46,7 @@ list(12) myAverage println
    matrix
 )
 
-2DMatrix set := method(x, y, value, 
+2DMatrix set := method(x, y, value,
     self at(y) atPut(x, value)
     self
 )
@@ -68,11 +68,11 @@ tester  println
    yValue := 0
    transposed := 2DMatrix dim(self y, self x)
 
-   self foreach(value, 
+   self foreach(value,
       xValue := 0
-      
-      value foreach(value, 
-        transposed set(yValue, xValue, value) 
+
+      value foreach(value,
+        transposed set(yValue, xValue, value)
 	xValue := xValue + 1
       )
       yValue := yValue + 1

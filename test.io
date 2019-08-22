@@ -1,7 +1,7 @@
 // 6. Write a transpose method so that new_matrix get(y, x) == matrix get(x, y)
 
 2DMatrix := List clone
-2DMatrix dim := method(x, y, 
+2DMatrix dim := method(x, y,
    matrix := self clone
    matrix x := x
    matrix y := y
@@ -15,7 +15,7 @@
    matrix
 )
 
-2DMatrix set := method(x, y, value, 
+2DMatrix set := method(x, y, value,
     self at(y) atPut(x, value)
     self
 )
