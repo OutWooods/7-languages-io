@@ -6,7 +6,7 @@ Week 2 is IO.
 Each of my folders for this book follow a similar structure. There are 'dumps' where I just put largely unformatted notes down as I go. There are 'anki' files which contain questions and answers for me to memorise and there are 'questions' files which are where I do the exercises from the book and add annotations to the code.
 
 I tried to follow a cycle of learn (aka the dump files), do (the questions files) and then memorise (the anki files). I also want to make sure this is working so I type up some reflections to see what I can do better and what I should keep doing. 
-This week I made those reflections into an article - to help provide advice to others and my future self. You can see my notes and reflections [here](memory.md).
+This week I made those reflections into an article - to help provide advice to others and my future self. You can see my notes and reflections [here](memory-notes.md).
 
 ## Why Seven Languages?
 
