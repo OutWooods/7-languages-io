@@ -20,7 +20,7 @@ My choice of Anki is that it works well to tackle both - the flash cards it show
 
 ## So why does memorising facts make me a better coder?
 
-Whilst obviously, coders shouldn't just remember facts - problem solving is significantly enhanced by base level knowledge. There are some schools of thought that say skills are just more complex mixtures of facts and knowledge. But we won't get into that right now.
+Whilst obviously, coders shouldn't just remember facts - but problem solving is significantly enhanced by base level knowledge. There are some schools of thought that say skills are just more complex mixtures of facts and knowledge. But we won't get into that right now.
 
 Memorising basic syntax rules and facts about the language you are using have several benefits:
 
